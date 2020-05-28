@@ -91,3 +91,8 @@ QUIT;
 
 /* Add something here to export it */
 
+proc sql;
+SELECT *
+FROM FINAL
+WHERE LOB = "BA";
+QUIT;
